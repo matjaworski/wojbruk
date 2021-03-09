@@ -1,0 +1,336 @@
+*, *::after, *::before {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 2560px;
+}
+
+.wrapper h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #9b9b9b;
+}
+
+.spancolor {
+  position: relative;
+  color: #9b9b9b;
+  top: 15%;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+nav {
+  text-transform: uppercase;
+  -webkit-transition: background-color .7s;
+  transition: background-color .7s;
+}
+
+nav a, nav i {
+  color: #ffffff;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #9b9b9b;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.active {
+  color: #9b9b9b;
+}
+
+header {
+  color: #ffffff;
+  overflow: hidden;
+}
+
+header h1 {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+header .hero-img {
+  height: 100vh;
+  position: relative;
+  background-image: url("/img/bricks-1839553_640.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-attachment: fixed;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+header .hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+header .fa-chevron-down {
+  display: none;
+}
+
+header .spanline {
+  padding: 0;
+  margin: 0;
+  color: yellow;
+  letter-spacing: 0px;
+}
+
+#onas h3 {
+  text-transform: uppercase;
+}
+
+#onas i {
+  font-size: 30px;
+}
+
+.animate-icon {
+  -webkit-animation: bounce 1s;
+          animation: bounce 1s;
+}
+
+.aboutvisibility {
+  visibility: hidden;
+}
+
+#partnerzy {
+  color: #ffffff;
+  overflow: hidden;
+}
+
+#partnerzy .jumbotron {
+  background-image: url("/img/building-2762319_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  padding: 50px 0;
+}
+
+#partnerzy .hero-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+#partnerzy h3 {
+  text-transform: uppercase;
+}
+
+#partnerzy i {
+  font-size: 30px;
+}
+
+#partnerzy .partner-item {
+  margin: 10px 0;
+  visibility: hidden;
+}
+
+#realizacje {
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+#realizacje h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#realizacje .carousel-item {
+  height: 500px;
+  position: relative;
+}
+
+#realizacje .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#realizacje .carousel-caption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+}
+
+#realizacje .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+#oferta {
+  overflow: hidden;
+}
+
+#oferta h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#oferta h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#oferta span {
+  font-weight: bold;
+}
+
+#oferta button {
+  text-transform: uppercase;
+}
+
+#oferta i {
+  font-size: 30px;
+}
+
+#oferta .price-box {
+  padding: 30px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  margin: 20px 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+#oferta .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#oferta .price-info a {
+  color: #9b9b9b;
+}
+
+#oferta .price-info a:visited {
+  color: #9b9b9b;
+}
+
+#kontakt {
+  color: #ffffff;
+}
+
+#kontakt .jumbotron {
+  background-image: url("/img/telephone-1324357_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  padding: 50px 0;
+}
+
+#kontakt .contact-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+#kontakt h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#kontakt h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#kontakt i {
+  font-size: 30px;
+  padding: 15px;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#kontakt i:hover {
+  color: #9b9b9b;
+}
+
+footer {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (min-width: 414px) {
+  header h1 {
+    font-size: 70px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
